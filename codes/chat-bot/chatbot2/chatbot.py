@@ -1,6 +1,8 @@
 import re
 import long_responses as long
-
+#? --------------------------------------------------------------------------------------------------------------------------------
+"""                         the bot is very stupid and cant say to many things                                     """
+#? --------------------------------------------------------------------------------------------------------------------------------
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
     message_certainty = 0
